@@ -42,7 +42,7 @@ function sum(...numbers: number[]): number {
 }
 console.log(sum(1, 2, 3, 4, 5)); // Output: 15
 
-// 7. Function Overloading
+// 7. Function Overloading -- Number of 
 function combine(a: string, b: string): string;
 function combine(a: number, b: number): number;
 function combine(a: any, b: any): any {
